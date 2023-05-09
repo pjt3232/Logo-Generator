@@ -9,12 +9,20 @@ inquirer
             type: 'input',
             name: 'text',
             message: 'Enter up to three characters:',
+            validate: function(input) {
+                if (input.length > 3) {
+                    console.log(`\nPlease enter a maximum of three characters.`);
+                    return false;
+                } else {
+                    return true;
+                }
+            },
         },
         {
             input: 'input',
             name: 'textColor',
             message: 'Enter the text color:',
-            default: 'black',
+            default: 'white',
         },
         {
             type: 'list',
@@ -26,7 +34,7 @@ inquirer
             type: 'input',
             name: 'color',
             message: 'Enter a keyword or a hexidecimal number for the shape color:',
-            default: 'white',
+            default: 'black',
         },
     ])
     .then((answers) => {

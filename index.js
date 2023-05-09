@@ -21,7 +21,7 @@ inquirer
         {
             input: 'input',
             name: 'textColor',
-            message: 'Enter the text color:',
+            message: 'Enter a keyword or a hexidecimal number for the text color:',
             default: 'white',
         },
         {

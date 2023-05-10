@@ -19,7 +19,7 @@ To use this application, you must follow the install directions. Once you have t
 
 ![Screen recording of the application in action](./videos/Logo-Generator-Screen-Recording.mov)
 
-The examples that were created in the video are also shown in the examples folder in the main directory, so you can look at the generated svg file.
+The examples that were created in the video are also shown in the examples folder in the main directory this allows you can look at the generated svg file. The logo.svg file in the finished repo is an example of an svg file generated with all default values.
 
 ## Contributions
 To contribute to this application, it would be super benefical to offer more shape designs and to allow the colors to be a mixture of colors rather than just one fill color. Another contribution could be adding more tests in the shapes.test.js file to make a stronger app with less chances to fail while running. Any of the contributions listed would only make this a better application and could definitely be of use.

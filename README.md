@@ -17,7 +17,7 @@ To install this application, you must be working on node.js version 16.0 to vers
 ## Usage
 To use this application, you must follow the install directions. Once you have that set up just type 'node index.js' in your terminal and the application will run. The first question will ask what characters you want in your logo, but if you type more than three characters the app will say you can only type a maximum of three total. The application will change any of your characters into uppercase if they're not a number. Fill out the rest of the following questions and it will generate your logo.svg file with your own personal logo. To skip through the questions, you can use the default values and get a black circle with no text, however I recommend you be creative and create a unique logo using hexadecimals values, various colors, and try different shapes to get the right fit for you. Below is a video of the running application and a walkthrough on how to use it:
 
-![Screen recording of the application in action](./videos/Logo-Screen-Recording.mov)
+![Screen recording of the application in action](./videos/Logo-Walkthrough-Recording.mov)
 
 The examples that were created in the video are also shown in the examples folder in the main directory this allows you can look at the generated svg file. The logo.svg file in the finished repo is an example of an svg file generated with all default values.
 

@@ -1,5 +1,7 @@
 # Logo-Generator
 
+[![Logo-Generator-Screenshot.png](https://i.postimg.cc/gjBvQDMJ/Logo-Generator-Screenshot.png)](https://postimg.cc/Fk3dJjX5)
+
 ## Description
 My motivation for the project was to become a better web developer and prepare for a career in this field. I built this project to get a better understanding of how the back-end of web development uses classes, create test.js files, and to get more familiar wit back-end applications. This application solves the problem of wanting to create a personal logo, but not wanting to use a photo editor. Based off the criteria you enter, the application will generate your logo and save you time in the process. I learned how to run tests on your application, how to create svg files, and how to use classes, constructors, and imports.
   
